@@ -7,8 +7,6 @@ import jakarta.persistence.Id;
 
 @Entity
 public class LocationEntity {
-    
-    public class LocationEntity {
         @Id
         @GeneratedValue(strategy=GenerationType.IDENTITY)
         private Long id;
